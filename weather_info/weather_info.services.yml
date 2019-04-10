@@ -1,0 +1,4 @@
+services:
+  weather_info.weather_parser:
+    class: Drupal\weather_info\WeatherParser
+    arguments: ['@current_user','@http_client', '@entity_type.manager']

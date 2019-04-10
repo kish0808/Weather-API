@@ -1,0 +1,8 @@
+name: Weather information
+type: module
+description: A Custom block for Weather information.
+package: Kishor
+core: 8.x
+dependencies:
+  - node
+  - block

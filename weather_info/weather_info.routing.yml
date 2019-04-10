@@ -1,0 +1,9 @@
+weatherform.config:
+  path: '/admin/config/weatherform/settings'
+  defaults:
+    _form: '\Drupal\weather_info\Form\WeatherConfigForm'
+    _title: 'Module Configurations'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
